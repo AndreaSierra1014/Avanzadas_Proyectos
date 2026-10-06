@@ -1,0 +1,2150 @@
+[
+    {
+        "CIUDAD":" CALI ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":" NEIVA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"ACACIAS",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"ACACÍAS",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"ACACIAS ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"AGUA DE DIOS",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"AGUACHICA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"AGUADAS",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"AGUAZUL",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"AGUSTIN CODAZZI",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"ALBANIA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"ALCALA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"ALCALÁ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"AMAGA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"AMAGÁ",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"ANAPOIMA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"ANDES",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"ANSERMA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"ANTIOQUIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"APARTADO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"APARTADÓ",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"APULO",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"ARACATACA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"ARANZAZU",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"ARAUCA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"ARAUQUITA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"ARGELIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"ARMENIA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"ARMENIA ",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"ARMERO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"ARPARTADO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"ATLANTICO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"ATLÁNTICO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"ATRATO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"BALBOA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"BARANOA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"BARBOSA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"BARICHARA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"BARRANCABERMEJA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"BARRANCAS",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"BARRANQUILLA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"BARRANQUILLA ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"BELÉN DE LOS ANDAQUÍES",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"BELÉN DE UMBRÍA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"BELLO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"BETULIA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"BOGOTA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"BOGOTÁ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"BOGOTA ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"BOGOTÁ ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"BOGOTA  ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"BOGOTÁ, D.C.                  ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"BOGOTA|",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"BOLIVAR",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"BOLÍVAR",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"BOSCONIA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"BOYACA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"BOYACÁ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"BRICEÑO",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"BUCARAMANGA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"BUCARAMANGA ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"BUENAVENTURA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"BUENAVISTA - QUINDÍO",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"BUENOS AIRES",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"BUGA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"BUGA ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"BUGALAGRANDE",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CACHANCIPÁ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CAICEDONIA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"CAJIBÍO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CAJICA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CAJICÁ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CALARCA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"CALARCÁ",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"CALDAS",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"CALI",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CALI ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CALO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CALOTO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CAMPOALEGRE",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CANDELARIA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CAQUETA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CAQUETÁ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CAQUEZA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CARACOLI",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CAREPA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"CARMEN DE APICALÁ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CARMEN DE BOLICAR",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CARMEN DE BOLIVAR",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CARMEN DE BOLÍVAR",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CARMEN DE VIBORAL",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"CARTAGENA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CARTAGENA ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CARTAGO",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"CARTGENA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CASANARE",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"CAUCA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CAUCACIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"CAUCASIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"CERETE",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CERETÉ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CERREJÓN",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CESAR",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CESÁR",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CHAPARRAL",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CHARALA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"CHIA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CHÍA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CHICORAL",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CHIGORODÓ",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"CHINAUTA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CHINCHINA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"CHINCHINÁ",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"CHINÚ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CHINÚ - CORDOBA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CHIQUINQUIRA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"CHIQUINQUIRÁ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"CHIRIGUANÁ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CHOCÓ",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"CHOCONTA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CHOCONTÁ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CHUIQUINQUIRÁ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"CIENAGA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CIÉNAGA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CIENAGA DE ORO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CIÉNAGA DE ORO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CIMITARRA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"CIRCASIA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"CIUDAD BOLIVAR",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"CIUDAD BOLÍVAR",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"CODAZZI",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CÓDOBA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"COGUA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CONCORDIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"CONDOTÓ",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"COPACABANA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"CORDOBA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CÓRDOBA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"COROZAL",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"COROZAL - SUCRE",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"COTA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"COTA ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"COVEÑAS",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"CUACARÍ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"CUCUTA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"CÚCUTA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"CUNDINAMARCA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CUNDINAMARCA ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"CURUMANÍ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"DABEIBA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"DON MATIAS",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"DONMATÍAS",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"DOS QUEBRADAS",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"DOSQUEBRADAS",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"DUITAMA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"DUITAMA ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"EL BANCO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"EL BORDO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"EL BORODO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"EL CAIRO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"EL CARMEN DE BOLIVAR",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"EL CERRITO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"EL COCUY",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"EL COLEGIO",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"EL DIFICIL",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"EL DIFÍCIL",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"EL DIFICIL - MAGDALENA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"EL DOVIO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"EL PASO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"EL PRADO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"EL RETIRO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"EL ROSAL",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"EL SANTUARIO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"EL TAMBO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"ENVIADO ANTIOQUIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"ENVIGADO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"ENVIGADO ANTIOQUIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"ESPINAL",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"FACA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"FACATATIVA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"FACATATIVÁ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"FILADELFIA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"FINLANDIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"FLANDES",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"FLORENCIA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"FLORIDA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"FLORIDA BLANCA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"FLORIDABLANCA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"FONSECA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"FREDONIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"FRESNO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"FUNACIÓN",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"FUNDACION",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"FUNDACIÓN",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"FUNZA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"FUNZA ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"FUSAGASUGA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"FUSAGASUGÁ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GACHANCIPA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"GACHANCIPÁ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"GALAPA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"GALAPA ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"GAMARRA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"GARAGOA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GARZON",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"GARZÓN",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"GENOVA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"GIGANTE",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"GINEBRA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"GIRARDOT",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GIRARDOT ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GIRARDOTA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"GIRON",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GIRÓN",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GRANADA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GUACARÍ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"GUACHETÁ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GUADALAJARA DE BUGA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"GUADUAS",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"GUAJIRA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"GUAMAL",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GUAMO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"GUAPI",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"GUARNE",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"GUASCA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GUATEQUE",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GUAVIARE",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"GUDALAJARA DE BUGA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"HONDA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"HUILA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"IBAGUE",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"IBAGUÉ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"IBAGUE ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"INZÁ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"IPIALES",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"ITAGUI",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"ITAGUÍ",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"ITAGÜI",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"ITSMINA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"JAMUNDI",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"JAMUNDÍ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"JARDÍN",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"JERICO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"LA APARTADA - CÓRDOBA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"LA CALERA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"LA CEJA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"LA CEJA (ANTIOQUIA)",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"LA DORADA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"LA ESTRELLA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"LA GUAJIRA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"LA JAGUA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"LA LOMA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"LA LOMA - CESAR ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"LA MELISA - CALDAS",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"LA MESA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"LA MESA  CUNDINAMARCA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"LA MESA  CUNDINAMARCA ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"LA MESA CUNDINAMARCA ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"LA PINTADA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"LA PINTADA ANTIOQUIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"LA PLATA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"LA TEBAIDA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"LA UNIÓN",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"LA UNION NARIÑO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"LA UNIÓN VALLE",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"LA VEGA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"LA VIRGINIA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"LÉRIDA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"LETICIA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"LIBANO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"LORICA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"LOS PATIOS - NORTE DE SANTANDER",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MADRID",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"MAGANGUE",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MAGANGUÉ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MAGANQUÉ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MAGDALENA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MAICAO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MALAGA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MÁLAGA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MALAMBO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MAMONAL",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MANIZALES",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"MANIZALES ",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"MANZANARES",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"MARINILLA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"MARIQUITA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MARSELLA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"MEDELLIN",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"MEDELLÍN",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"MEDELLÍN ",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"MELGAR",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MELGAR (BASE MILITAR)",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MESITAS DEL COLEGIO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MIRAFLORES",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MIRANDA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"MOCOA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"MOMPOS",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MOMPÓS",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MOMPOX ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MONIQUIRA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MONIQUIRÁ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MONTELIBANO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MONTELÍBANO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MONTENEGRO",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"MONTERIA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MONTERÍA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MONTERIA ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"MONTERREY",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"MORELIA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"MOSQUERA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"MOSQUERA ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"NARIÑO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"NEIRA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"NEIVA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"NEIVA ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"NILO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"NOBSA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"NORTE DE SANTANDER",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"OBANDO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"OCAÑA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"ORITO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"OROCUE",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"ORTEGA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PACHO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PACORA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"PÁCORA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"PADILLA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PAILITAS",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"PAIPA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PALERMO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PALESTINA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"PALMIRA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PALMIRA ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PALOCABILDO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PAMPLONA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PARATEBUENO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PASTO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PATIA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PATÍA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PAUJIL",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PAZ DE ARIPORO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PAZ DEL RÍO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PENSILVANIA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"PEÑOL",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"PEREIRA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"PEREIRA -ARMENIA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"PIEDECUESTA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PIENDAMÓ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PIJAO",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"PITALITO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PIVIJAY",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"PLANETA RICA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"PLATO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"PLATO MAGDALENA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"POPAYAN",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"POPAYÁN",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PRADERA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PROVIDENCIA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"PUERTO ASIS",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PUERTO BERRIO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PUERTO BOYACA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PUERTO BOYACÁ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PUERTO CARREÑO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PUERTO COLOMBIA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"PUERTO GAITAN",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PUERTO GAITÁN",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PUERTO LOPEZ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PUERTO LÓPEZ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PUERTO RICO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PUERTO SALGAR",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"PUERTO TEJADA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PURIFICACION",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"PUTUMAYO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"QUIBDO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"QUIBDÓ",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"QUIMBAYA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"QUINCHIA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"QUINDIO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"QUINDÍO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"RAMIRIQUÍ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"RESTREPO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"RICAURTE",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"RÍO QUITO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"RIOACHA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"RIOFRIO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"RIOHACHA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"RIOHACHA ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"RIONEGRO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"RIOSUCIO",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"RISARALDA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"ROLDANILLO",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"ROSAS",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"ROVIRA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SABANAGRANDE",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SABANALARGA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SABANETA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SAHAGUN",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAHAGÚN",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAHAGUN (MONTERIA)",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SALAMINA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"SALDANA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SALDAÑA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SALENTO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SALGAR",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SALGAR ",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SAMACA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SAMANIEGO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SAN ANDRÉS",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAN ANDRÉS DE SOTAVIENTO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAN ANDRES ISLA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAN ANTERO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SAN ANTONIO DE PRADO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SAN ANTONIO DEL TEQUENDAMA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SAN GIL",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SAN JAUAN NEPOMUCENO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAN JERONIMO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SAN JOSE",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SAN JOSE DEL GUAVIARE",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SAN JUAN DEL CESAR",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAN JUAN RIO SECO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SAN MARCOS",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAN MARTIN",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SAN ONOFRE",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAN PEDRO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SAN PEDRO -  VIA MAGANGUÉ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAN PEDRO DE HEREDIA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SAN VICENTE DE CHUCURI",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SANTA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SANTA BARBARA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SANTA FE DE ANTIOQUIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SANTA MARIA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"SANTA MARTA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SANTA ROSA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SANTA ROSA DE CABAL",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"SANTA ROSA DE VITERBO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SANTAFE DE ANTIOQUIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SANTAFÉ DE ANTIOQUIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SANTANA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SANTANDER",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SANTANDER DE Q",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SANTANDER DE QUILICHAO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SANTANDER Q",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SANTO DOMINGO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SANTO TOMAS",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SANTO TOMÁS",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SANTUARIO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SARAVENA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SEGOVIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SESQUILÉ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SEVILLA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"SIBATE",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"SIBATÉ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"SIBERIA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"SIBUNDOY",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SILVANIA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SILVIA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SIMITÍ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SINCELEJO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SOACHA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"SOATÁ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"SOCORRO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SOCORRO - SANTANDER",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SOGAMOSO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SOLEDAD",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SOPO",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"SOPÓ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"SUAITA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SUAZA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"SUBACHOQUE",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SUCRE",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"SUESCA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"SUPIA",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"TABIO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"TADÓ",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"TAME",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"TARAZA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"TARAZÁ - ANTIOQUIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"TAURAMENA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"TENJO",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"TEQUENDAMA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"TIBASOSA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"TIERRA ALTA - CORDOBA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"TIMANÁ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"TIMBIO CAUCA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"TOCANCIPA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"TOCANCIPÁ",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"TOLIMA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"TOLU",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"TOLÚ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"TORIBÍO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"TULUA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"TULUÁ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"TUMACO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"TUNJA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"TUNJA ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"TUQUERRES",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"TÚQUERRES",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"TURBACO",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"TURBANA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"TURBO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"UBATE",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"UBATÉ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"URRAO",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"VALLE",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"VALLE DEL CAUCA",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"VALLEDUPAR",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"VALLEDUPAR ",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"VELEZ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VÉLEZ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VERSALLES",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"VIANI",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VILAVICENCIO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VILLA DE LEYVA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VILLA DE SAN DIEGO DE UBA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VILLA DE SAN DIEGO DE UBATE",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VILLA DEL ROSARIO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VILLA MARIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"VILLAGARZON",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"VILLAGARZÓN",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VILLAMARIA",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"VILLANUEVA",
+        "REGIONAL":"R1 COSTA"
+    },
+    {
+        "CIUDAD":"VILLAPINZÓN",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VILLAVICENCIO",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VILLAVICENCIO ",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VILLETA",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"VITERBO",
+        "REGIONAL":"R2 EJE CAFETERO"
+    },
+    {
+        "CIUDAD":"YARUMAL",
+        "REGIONAL":"R2 ANTIOQUIA"
+    },
+    {
+        "CIUDAD":"YOPAL",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"YOPAL CALLES",
+        "REGIONAL":"R5 ORIENTE"
+    },
+    {
+        "CIUDAD":"YOTOCO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"YUMBO",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"YUMBO ",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"ZARZAL",
+        "REGIONAL":"R3 OCCIDENTE"
+    },
+    {
+        "CIUDAD":"ZIPACÓN",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"ZIPAQUIRA",
+        "REGIONAL":"R4 CENTRO"
+    },
+    {
+        "CIUDAD":"ZIPAQUIRÁ",
+        "REGIONAL":"R4 CENTRO"
+    }
+]
