@@ -84,8 +84,8 @@
     ]
     },
     {
-        "REGIONAL":"R2 ANTIOQUIA",
-        "CIUDAD":[
+        "regional":"R2 ANTIOQUIA",
+        "ciudades":[
         "AMAGA",
         "ANDES",
         "ANTIOQUIA",
@@ -155,8 +155,8 @@
 
     },
     {
-        "REGIONAL":"R2 EJE CAFETERO",
-        "CIUDAD":[
+        "regional":"R2 EJE CAFETERO",
+        "ciudades":[
             "AGUADAS",
             "ALCALA",
             "ANSERMA",
@@ -201,8 +201,8 @@
         ]
     },
     {
-        "REGIONAL":"R3 OCCIDENTE",
-        "CIUDAD":[
+        "regional":"R3 OCCIDENTE",
+        "ciudades":[
             "CALI",
             "NEIVA",
             "ALBANIA",
@@ -302,9 +302,10 @@
             "ZARZAL"
         ]
     },
+    
     {
-        "REGIONAL":"R4 CENTRO",
-        "CIUDAD":[
+        "regional":"R4 CENTRO",
+        "ciudades":[
             "ANAPOIMA",
             "APULO",
             "BOGOTA",
@@ -341,8 +342,8 @@
         ]
     },
     {
-        "REGIONAL":"R5 ORIENTE",
-        "CIUDAD":[
+        "regional":"R5 ORIENTE",
+        "ciudades":[
             "ACACIAS",
             "AGUA DE DIOS",
             "AGUAZUL",
