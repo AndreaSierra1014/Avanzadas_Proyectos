@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Formulario de Avanzadas de Proyectos</title>
+<style>
+:root{--rojo:#d71920;--rojo2:#b51218;--gris:#5f6368;--borde:#d9dde3;--fondo:#f3f5f7;--ok:#19733b}
+*{box-sizing:border-box} body{margin:0;background:var(--fondo);font-family:Segoe UI,Arial,sans-serif;color:#202124}
+.contenedor{max-width:1100px;margin:24px auto;background:#fff;border-radius:14px;box-shadow:0 8px 30px #00000018;overflow:hidden}
+.encabezado{background:linear-gradient(135deg,var(--rojo),var(--rojo2));padding:26px 30px;color:#fff;text-align:center}
+.encabezado h1{margin:0;font-size:clamp(22px,4vw,34px)} .encabezado p{margin:8px 0 0;opacity:.92}
+form{padding:28px}.seccion{border:1px solid var(--borde);border-radius:12px;padding:20px;margin-bottom:20px}
+.seccion h2{color:var(--rojo2);font-size:19px;margin:0 0 18px;border-bottom:2px solid #f4c4c6;padding-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.campo.completo{grid-column:1/-1}
+label{display:block;font-weight:650;margin-bottom:6px}label .req{color:var(--rojo)}
+input,select,textarea{width:100%;padding:11px 12px;border:1px solid var(--borde);border-radius:8px;font:inherit;background:#fff}
+input:focus,select:focus,textarea:focus{outline:3px solid #d7192020;border-color:var(--rojo)}
+input[readonly]{background:#f4f6f8;color:#555}textarea{min-height:105px;resize:vertical}.oculto{display:none!important}
+.ubicacion{display:flex;gap:10px;align-items:end}.ubicacion>div{flex:1}.boton{border:0;border-radius:9px;padding:12px 18px;font-weight:700;cursor:pointer}
+.btn-geo{background:#eceff3;color:#202124;white-space:nowrap}.btn-enviar{background:var(--rojo);color:#fff;width:100%;font-size:17px}.btn-enviar:hover{background:var(--rojo2)}
+.estado{margin-top:12px;padding:12px;border-radius:8px;display:none}.estado.ok{display:block;background:#e7f6ec;color:var(--ok)}.estado.error{display:block;background:#fdebec;color:#a50e15}
+.ayuda{font-size:12px;color:var(--gris);margin-top:5px}.nota{background:#fff6df;border-left:4px solid #e0a000;padding:11px;margin-bottom:18px}
+@media(max-width:750px){.contenedor{margin:0;border-radius:0}.grid{grid-template-columns:1fr}.campo.completo{grid-column:auto}form{padding:16px}.ubicacion{display:grid}}
+</style>
+</head>
+<body><div class="contenedor">
+<header class="encabezado"><h1>FORMULARIO DE AVANZADAS DE PROYECTOS</h1><p>Todos los campos son obligatorios.</p></header>
+<form id="formAvanzadas">
+<div class="nota">Permite el acceso a la ubicación. Sin coordenadas válidas no se podrá enviar el formulario.</div>
+<section class="seccion"><h2>1. Información de la avanzada</h2><div class="grid">
+<div class="campo"><label for="nombreTecnico">Nombre del técnico que diligencia <span class="req">*</span></label><input id="nombreTecnico" name="nombreTecnico" required></div>
+<div class="campo"><label for="numeroTecnico">Número del técnico que diligencia <span class="req">*</span></label><input id="numeroTecnico" name="numeroTecnico" type="tel" inputmode="numeric" pattern="[0-9 ]{7,15}" required></div>
+<div class="campo"><label for="aliado">Aliado <span class="req">*</span></label><select id="aliado" name="aliado" required><option value="">Seleccione...</option><option>Sicte</option><option>Tabasco</option><option>Telcos</option>
+    <option>Dominion</option><option>Inmel</option><option>Dico</option><option>Conectar</option><option>Cinco</option><option>Positivo</option><option>Otro</option></select></div>
+<div class="campo"><label for="fechaAvanzada">Fecha avanzada y hora de avanzada</label><input id="fechaAvanzada" name="fechaAvanzada" readonly required></div>
+<div class="campo"><label for="nombreCliente">Nombre del cliente <span class="req">*</span></label><input id="nombreCliente" name="nombreCliente" required></div>
+<div class="campo"><label for="otpOnyx">OTP de actividad (ONYX) <span class="req">*</span></label><input id="otpOnyx" name="otpOnyx" type="text" inputmode="numeric" pattern="[0-9]+" required></div>
+<div class="campo"><label for="otpRR">OTP de actividad (RR) <span class="req">*</span></label><input id="otpRR" name="otpRR" type="text" inputmode="numeric" pattern="[0-9]+" required></div>
+<div class="campo"><label for="fechaActividad">Fecha y hora de la actividad agendada <span class="req">*</span></label><input id="fechaActividad" name="fechaActividad" type="datetime-local" required></div>
+<div class="campo">
+    <label for="tipoActividad">
+        Tipo de Actividad
+        <span class="req">*</span>
+    </label>
+
+    <select
+        id="tipoActividad"
+        name="tipoActividad"
+        required>
+
+        <option value="">
+            Seleccione una opción
+        </option>
+
+        <option value="Entrega de Servicio">
+            Entrega de Servicio
+        </option>
+
+        <option value="Instalación">
+            Instalación
+        </option>
+
+    </select>
+</div>
+</div></section>
+<section class="seccion"><h2>2. Ubicación</h2><div class="grid">
+<div class="campo"><label for="regional">Regional <span class="req">*</span></label><select id="regional" name="regional" required><option value="">Cargando regionales...</option></select></div>
+<div class="campo"><label for="ciudad">Ciudad <span class="req">*</span></label><select id="ciudad" name="ciudad" required disabled><option value="">Seleccione primero la regional</option></select></div>
+<div class="campo completo"><label for="direccion">Dirección <span class="req">*</span></label><input id="direccion" name="direccion" required></div>
+<div class="campo completo ubicacion"><div><label for="coordenadaX">Coordenada X / Longitud</label><input id="coordenadaX" name="coordenadaX" readonly required></div><div><label for="coordenadaY">Coordenada Y / Latitud</label><input id="coordenadaY" name="coordenadaY" readonly required></div><button type="button" class="boton btn-geo" id="btnUbicacion">Actualizar ubicación</button></div>
+<div class="campo">
+    <label for="tipoSitio">
+        Tipo de Sitio
+        <span class="req">*</span>
+    </label>
+
+    <select
+        id="tipoSitio"
+        name="tipoSitio"
+        required>
+
+        <option value="">
+            Seleccione...
+        </option>
+
+        <option value="Centro Comercial">
+            Centro Comercial
+        </option>
+
+        <option value="Centro Empresarial">
+            Centro Empresarial
+        </option>
+
+        <option value="Grandes Superficies">
+            Grandes Superficies
+        </option>
+
+    </select>
+</div>
+
+<div class="campo">
+    <label for="centro">
+        Nombre del Sitio
+        <span class="req">*</span>
+    </label>
+
+    <input
+        id="centro"
+        name="centro"
+        class="mayusculas"
+        required>
+</div>
+</div></section>
+<section class="seccion"><h2>3. Contactos</h2><div class="grid" id="contactos"></div></section>
+<section class="seccion"><h2>4. Requerimientos y observaciones</h2><div class="grid">
+<div class="campo completo"><label for="observaciones">Observaciones <span class="req">*</span></label><textarea id="observaciones" name="observaciones" required></textarea></div>
+<div class="campo"><label for="andamio">¿Requiere andamio certificado? <span class="req">*</span></label><select id="andamio" name="andamio" required class="sino"></select></div>
+<div class="campo"><label for="escalera">¿Requiere escalera? <span class="req">*</span></label><select id="escalera" name="escalera" required class="sino" data-controla="grupoTamanoEscalera"></select></div>
+<label for="tamanoEscalera">
+    Tamaño escalera (metros)
+    <span class="req">*</span>
+</label>
+
+<input
+    type="number"
+    step="0.1"
+    min="0"
+    id="tamanoEscalera"
+    name="tamanoEscalera">
+<div class="campo"><label for="manlift">¿Requiere plataforma - manlift? <span class="req">*</span></label><select id="manlift" name="manlift" required class="sino"></select></div>
+<div class="campo completo"><label for="otros">Otros <span class="req">*</span></label><textarea id="otros" name="otros" required></textarea></div>
+<div class="campo"><label for="documentacionAdicional">¿Se requiere documentación adicional a parafiscales? <span class="req">*</span></label><select id="documentacionAdicional" name="documentacionAdicional" required class="sino" data-controla="grupoCualDocumentacion"></select></div>
+<div class="campo oculto" id="grupoCualDocumentacion"><label for="cualDocumentacion">¿Cuál? <span class="req">*</span></label><input id="cualDocumentacion" name="cualDocumentacion"></div>
+<div class="campo"><label for="capacitacionPrevia">¿Se requiere curso/capacitación previa? <span class="req">*</span></label><select id="capacitacionPrevia" name="capacitacionPrevia" required class="sino" data-controla="grupoCualCapacitacion"></select></div>
+<div class="campo oculto" id="grupoCualCapacitacion"><label for="cualCapacitacion">¿Cuál? <span class="req">*</span></label><input id="cualCapacitacion" name="cualCapacitacion"></div>
+<div class="campo"><label for="siso">¿Se requiere acompañamiento de SISO durante la actividad? <span class="req">*</span></label><select id="siso" name="siso" required class="sino"></select></div>
+<div class="campo"><label for="permisos">¿Se confirman permisos para la actividad? <span class="req">*</span></label><select id="permisos" name="permisos" required class="sino" data-controla-no="grupoFaltantes"></select></div>
+<div class="campo completo oculto" id="grupoFaltantes"><label for="faltantesPermisos">Si la respuesta es NO, explique qué falta y por qué <span class="req">*</span></label><textarea id="faltantesPermisos" name="faltantesPermisos"></textarea></div>
+</div></section>
+<button class="boton btn-enviar" type="submit" id="btnEnviar">Enviar formulario</button><div id="estado" class="estado" role="alert"></div>
+</form></div>
+<script>
+// Pegue aquí la URL del desencadenador HTTP de Power Automate.
+const POWER_AUTOMATE_URL = "https://default46bb22b84c2c40ff83607b63348212.79.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/72417c4d87df4fafa7f2b09f47826840/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Dxy5nHAS4tljYUNdrXf9QtUvQjX2h4G7_JxSUs-gmrU";
+const BASE_REGIONALES = "regionales_ciudades.json";
+const contactos=[['cliente','cliente'],['administracion','administración'],['mantenimiento','mantenimiento'],['seguridad','seguridad']];
+const cont=document.getElementById('contactos');
+contactos.forEach(([id,txt])=>{cont.insertAdjacentHTML('beforeend',`<div class="campo"><label for="nombre_${id}">Nombre contacto de ${txt} <span class="req">*</span></label><input id="nombre_${id}" name="nombre_${id}" required></div><div class="campo"><label for="email_${id}">Email contacto de ${txt} <span class="req">*</span></label><input id="email_${id}" name="email_${id}" type="email" required></div><div class="campo"><label for="telefono_${id}">Número de teléfono contacto de ${txt} <span class="req">*</span></label><input id="telefono_${id}" name="telefono_${id}" type="tel" inputmode="numeric" pattern="[0-9 ]{7,15}" required></div>`)});
+document.querySelectorAll('.sino').forEach(s=>s.innerHTML='<option value="">Seleccione...</option><option value="SI">SI</option><option value="NO">NO</option>');
+function fechaLocalISO(){const d=new Date(),z=n=>String(n).padStart(2,'0');return `${d.getFullYear()}-${z(d.getMonth()+1)}-${z(d.getDate())}T${z(d.getHours())}:${z(d.getMinutes())}:${z(d.getSeconds())}`}
+document.getElementById('fechaAvanzada').value=fechaLocalISO();
+let baseRegionales=[];
+async function cargarBase(){try{const r=await fetch(BASE_REGIONALES,{cache:'no-store'});if(!r.ok)throw Error();baseRegionales=await r.json();cargarRegionales()}catch(e){mostrar('No se pudo leer regionales_ciudades.json. Publique el archivo junto al HTML.','error')}}
+function cargarRegionales(){const r=document.getElementById('regional');r.innerHTML='<option value="">Seleccione...</option>'+baseRegionales.map(x=>`<option value="${x.regional}">${x.regional}</option>`).join('')}
+document.getElementById('regional').addEventListener('change',e=>{const c=document.getElementById('ciudad');const x=baseRegionales.find(v=>v.regional===e.target.value);c.innerHTML='<option value="">Seleccione...</option>'+((x?.ciudades)||[]).map(v=>`<option value="${v}">${v}</option>`).join('');c.disabled=!x});
+function condicional(select,id,valor){const g=document.getElementById(id),f=g.querySelector('input,textarea');const ver=select.value===valor;g.classList.toggle('oculto',!ver);f.required=ver;if(!ver)f.value=''}
+document.querySelectorAll('[data-controla]').forEach(s=>s.addEventListener('change',()=>condicional(s,s.dataset.controla,'SI')));
+document.querySelectorAll('[data-controla-no]').forEach(s=>s.addEventListener('change',()=>condicional(s,s.dataset.controlaNo,'NO')));
+document.querySelectorAll('.mayusculas').forEach(i=>i.addEventListener('input',()=>i.value=i.value.toUpperCase()));
+function mostrar(t,tipo){const e=document.getElementById('estado');e.textContent=t;e.className='estado '+tipo}
+function obtenerUbicacion(){mostrar('Obteniendo ubicación...','ok');if(!navigator.geolocation)return mostrar('El navegador no admite geolocalización.','error');navigator.geolocation.getCurrentPosition(p=>{document.getElementById('coordenadaX').value=p.coords.longitude.toFixed(7);document.getElementById('coordenadaY').value=p.coords.latitude.toFixed(7);mostrar(`Ubicación capturada. Precisión aproximada: ${Math.round(p.coords.accuracy)} m.`,'ok')},()=>mostrar('No fue posible obtener las coordenadas. Habilite el permiso de ubicación y use HTTPS.','error'),{enableHighAccuracy:true,timeout:20000,maximumAge:0})}
+document.getElementById('btnUbicacion').addEventListener('click',obtenerUbicacion);
+document.getElementById('formAvanzadas').addEventListener('submit',async e=>{e.preventDefault();const form=e.currentTarget;document.getElementById('fechaAvanzada').value=fechaLocalISO();if(!form.reportValidity())return;if(!form.coordenadaX.value||!form.coordenadaY.value)return mostrar('Debe capturar las coordenadas antes de enviar.','error');if(POWER_AUTOMATE_URL.includes('PEGAR_AQUI'))return mostrar('Configure POWER_AUTOMATE_URL dentro del archivo HTML.','error');const btn=document.getElementById('btnEnviar');btn.disabled=true;btn.textContent='Enviando...';const datos=Object.fromEntries(new FormData(form).entries());datos.fechaEnvioUtc=new Date().toISOString();try{const r=await fetch(POWER_AUTOMATE_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(datos)});if(!r.ok)throw Error(`HTTP ${r.status}`);mostrar('Formulario enviado correctamente.','ok');form.reset();document.getElementById('fechaAvanzada').value=fechaLocalISO();document.getElementById('ciudad').disabled=true;document.querySelectorAll('[data-controla],[data-controla-no]').forEach(s=>s.dispatchEvent(new Event('change')));obtenerUbicacion()}catch(err){mostrar('No se pudo enviar: '+err.message+'. Revise la URL, CORS y el historial del flujo.','error')}finally{btn.disabled=false;btn.textContent='Enviar formulario'}});
+cargarBase();obtenerUbicacion();
+</script></body></html>
