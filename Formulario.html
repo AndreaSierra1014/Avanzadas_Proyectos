@@ -31,11 +31,11 @@ input[readonly]{background:#f4f6f8;color:#555}textarea{min-height:105px;resize:v
 <div class="campo"><label for="nombreTecnico">Nombre del técnico que diligencia <span class="req">*</span></label><input id="nombreTecnico" name="nombreTecnico" required></div>
 <div class="campo"><label for="numeroTecnico">Número del técnico que diligencia <span class="req">*</span></label><input id="numeroTecnico" name="numeroTecnico" type="tel" inputmode="numeric" pattern="[0-9 ]{7,15}" required></div>
 <div class="campo"><label for="aliado">Aliado <span class="req">*</span></label><select id="aliado" name="aliado" required><option value="">Seleccione...</option><option>Sicte</option><option>Tabasco</option><option>Telcos</option>
-    <option>Dominion</option><option>Inmel</option><option>Dico</option><option>Conectar</option><option>Cinco</option><option>Positivo</option></select></div>
+    <option>Dominion</option><option>Inmel</option><option>Dico</option><option>Conectar</option><option>Cinco</option><option>Positivo</option><option>Otro</option></select></div>
 <div class="campo"><label for="fechaAvanzada">Fecha avanzada y hora de avanzada</label><input id="fechaAvanzada" name="fechaAvanzada" readonly required></div>
 <div class="campo"><label for="nombreCliente">Nombre del cliente <span class="req">*</span></label><input id="nombreCliente" name="nombreCliente" required></div>
 <div class="campo"><label for="otpOnyx">OTP de actividad (ONYX) <span class="req">*</span></label><input id="otpOnyx" name="otpOnyx" type="text" inputmode="numeric" pattern="[0-9]+" required></div>
-<div class="campo"><label for="otpRR">OT de actividad (RR) <span class="req">*</span></label><input id="otpRR" name="otpRR" type="text" inputmode="numeric" pattern="[0-9]+" required></div>
+<div class="campo"><label for="otpRR">OTP de actividad (RR) <span class="req">*</span></label><input id="otpRR" name="otpRR" type="text" inputmode="numeric" pattern="[0-9]+" required></div>
 <div class="campo"><label for="fechaActividad">Fecha y hora de la actividad agendada <span class="req">*</span></label><input id="fechaActividad" name="fechaActividad" type="datetime-local" required></div>
 <div class="campo">
     <label for="tipoActividad">
@@ -115,18 +115,38 @@ input[readonly]{background:#f4f6f8;color:#555}textarea{min-height:105px;resize:v
 <section class="seccion"><h2>4. Requerimientos y observaciones</h2><div class="grid">
 <div class="campo completo"><label for="observaciones">Observaciones <span class="req">*</span></label><textarea id="observaciones" name="observaciones" required></textarea></div>
 <div class="campo"><label for="andamio">¿Requiere andamio certificado? <span class="req">*</span></label><select id="andamio" name="andamio" required class="sino"></select></div>
-<div class="campo"><label for="escalera">¿Requiere escalera? <span class="req">*</span></label><select id="escalera" name="escalera" required class="sino" data-controla="grupoTamanoEscalera"></select></div>
-<label for="tamanoEscalera">
-    Tamaño escalera (metros)
-    <span class="req">*</span>
-</label>
+<div class="campo">
+    <label for="escalera">
+        ¿Requiere escalera?
+        <span class="req">*</span>
+    </label>
 
-<input
-    type="number"
-    step="0.1"
-    min="0"
-    id="tamanoEscalera"
-    name="tamanoEscalera">
+    <select
+        id="escalera"
+        name="escalera"
+        class="sino"
+        required
+        data-controla="grupoTamanoEscalera">
+        <option value="">Seleccione...</option>
+        <option value="SI">SI</option>
+        <option value="NO">NO</option>
+    </select>
+</div>
+
+<div class="campo oculto" id="grupoTamanoEscalera">
+    <label for="tamanoEscalera">
+        Tamaño escalera (metros)
+        <span class="req">*</span>
+    </label>
+
+    <input
+        type="number"
+        id="tamanoEscalera"
+        name="tamanoEscalera"
+        min="0.1"
+        step="0.1"
+        placeholder="Ej: 3.5">
+</div>
 <div class="campo"><label for="manlift">¿Requiere plataforma - manlift? <span class="req">*</span></label><select id="manlift" name="manlift" required class="sino"></select></div>
 <div class="campo completo"><label for="otros">Otros <span class="req">*</span></label><textarea id="otros" name="otros" required></textarea></div>
 <div class="campo"><label for="documentacionAdicional">¿Se requiere documentación adicional a parafiscales? <span class="req">*</span></label><select id="documentacionAdicional" name="documentacionAdicional" required class="sino" data-controla="grupoCualDocumentacion"></select></div>
@@ -153,9 +173,57 @@ let baseRegionales=[];
 async function cargarBase(){try{const r=await fetch(BASE_REGIONALES,{cache:'no-store'});if(!r.ok)throw Error();baseRegionales=await r.json();cargarRegionales()}catch(e){mostrar('No se pudo leer regionales_ciudades.json. Publique el archivo junto al HTML.','error')}}
 function cargarRegionales(){const r=document.getElementById('regional');r.innerHTML='<option value="">Seleccione...</option>'+baseRegionales.map(x=>`<option value="${x.regional}">${x.regional}</option>`).join('')}
 document.getElementById('regional').addEventListener('change',e=>{const c=document.getElementById('ciudad');const x=baseRegionales.find(v=>v.regional===e.target.value);c.innerHTML='<option value="">Seleccione...</option>'+((x?.ciudades)||[]).map(v=>`<option value="${v}">${v}</option>`).join('');c.disabled=!x});
-function condicional(select,id,valor){const g=document.getElementById(id),f=g.querySelector('input,textarea');const ver=select.value===valor;g.classList.toggle('oculto',!ver);f.required=ver;if(!ver)f.value=''}
-document.querySelectorAll('[data-controla]').forEach(s=>s.addEventListener('change',()=>condicional(s,s.dataset.controla,'SI')));
-document.querySelectorAll('[data-controla-no]').forEach(s=>s.addEventListener('change',()=>condicional(s,s.dataset.controlaNo,'NO')));
+function condicional(select, id, valor) {
+    const grupo = document.getElementById(id);
+    if (!grupo) return;
+
+    const campo = grupo.querySelector('input, textarea, select');
+    const mostrar = select.value === valor;
+
+    grupo.classList.toggle('oculto', !mostrar);
+
+    if (campo) {
+        campo.required = mostrar;
+
+        if (!mostrar) {
+            campo.value = '';
+        }
+    }
+}
+
+document.querySelectorAll('[data-controla]').forEach(select => {
+    select.addEventListener('change', () => {
+        condicional(
+            select,
+            select.dataset.controla,
+            'SI'
+        );
+    });
+
+    // Establecer estado inicial
+    condicional(
+        select,
+        select.dataset.controla,
+        'SI'
+    );
+});
+
+document.querySelectorAll('[data-controla-no]').forEach(select => {
+    select.addEventListener('change', () => {
+        condicional(
+            select,
+            select.dataset.controlaNo,
+            'NO'
+        );
+    });
+
+    // Establecer estado inicial
+    condicional(
+        select,
+        select.dataset.controlaNo,
+        'NO'
+    );
+});
 document.querySelectorAll('.mayusculas').forEach(i=>i.addEventListener('input',()=>i.value=i.value.toUpperCase()));
 function mostrar(t,tipo){const e=document.getElementById('estado');e.textContent=t;e.className='estado '+tipo}
 function obtenerUbicacion(){mostrar('Obteniendo ubicación...','ok');if(!navigator.geolocation)return mostrar('El navegador no admite geolocalización.','error');navigator.geolocation.getCurrentPosition(p=>{document.getElementById('coordenadaX').value=p.coords.longitude.toFixed(7);document.getElementById('coordenadaY').value=p.coords.latitude.toFixed(7);mostrar(`Ubicación capturada. Precisión aproximada: ${Math.round(p.coords.accuracy)} m.`,'ok')},()=>mostrar('No fue posible obtener las coordenadas. Habilite el permiso de ubicación y use HTTPS.','error'),{enableHighAccuracy:true,timeout:20000,maximumAge:0})}
